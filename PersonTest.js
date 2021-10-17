@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var Person_1 = require("./Person");
+var person1 = new Person_1.Person("Guillermo", "Spanish", "tester", 3);
+var person2 = new Person_1.Person("Matt", "USA", "developer", 2);
+var person3 = new Person_1.Person("Kevin", "Canadian", "manager", 5);
+var person4 = new Person_1.Person("Guillermo", "Spanish", "tester", 3);
+person1.setName("Alvaro");
+console.log(person1.getName());
+console.log(person1.attributesToString());
+console.log(person2.getProffesion());
+person3.print();
+console.log(person1.isSamePerson(person4));
