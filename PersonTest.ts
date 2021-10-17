@@ -18,8 +18,10 @@ console.log(person1.attributesToString());
 
 console.log(person2.getProffesion());
 
-person3.print();
-
-
-
 console.log(person1.isSamePerson(person4));
+
+person1.print();
+
+person2.print();
+
+person3.print();
